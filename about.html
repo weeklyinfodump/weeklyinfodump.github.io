@@ -6,6 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"> </script>
+        <script>
+            let touchStartX = 0;
+            let touchEndX = 0;
+            let currentTab = 0;
+            function checkDirection() {
+                if (touchEndX>touchStartX+60) {
+                    window.location.replace("previousWeeks.html");
+                }
+            }
+            document.addEventListener('touchstart', e => {
+                touchStartX = e.changedTouches[0].screenX;
+            });
+            document.addEventListener('touchend', e => {
+                touchEndX = e.changedTouches[0].screenX;
+                checkDirection()
+            });
+        </script>
         <title>About</title>
         <link rel="icon" href="images/weekly_infodump_icon.svg" sizes="128x128" />
     </head>
