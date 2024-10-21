@@ -7,6 +7,24 @@ span {
 .nav-pills {
     --bs-nav-pills-link-active-bg: #b10dfd;
 }
+.nav-link {
+    color: #b10dfd;
+}
 .nav {
-    --bs-nav-link-color:var(--bs-nav-pills-link-active-bg)
+    --bs-nav-link-color:var(--bs-nav-pills-link-active-bg);
+    --bs-nav-link-hover-color: #900dcd;
+}
+.bg-content-box {
+    background-color: #2b2b2f;
+    color: rgb(249, 249, 235);
+}
+.bg-search {
+    background-color: #37373e;
+}
+.row {
+    --bs-gutter-x:0;
+}
+a {
+    text-decoration: none;
+    color: #b10dfd;
 }
