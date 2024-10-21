@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="15.36pt"
+    height="15.36pt"
+    viewBox="0 0 15.36 15.36">
+<defs/>
+<circle id="shape0" transform="matrix(1.00000004470348 0 0 1.00000004470348 0.240000010728836 0.240000010728836)" r="7.44" cx="7.44" cy="7.44" fill="#6f0094" fill-rule="evenodd" stroke="#6c0094" stroke-width="0.12" stroke-linecap="square" stroke-linejoin="bevel"/><rect id="shape01" transform="matrix(0.93040738736753 -0.366527099272689 0.366527099272689 0.93040738736753 1.86183267781603 4.18638474709607)" fill="#ffffff" fill-rule="evenodd" stroke="#ffffff" stroke-width="0.36" stroke-linecap="square" stroke-linejoin="bevel" width="1.32" height="9.24" rx="0.66" ry="0.731683168316833"/><rect id="shape02" transform="matrix(-0.93040738736753 -0.366527099272689 -0.366527099272689 0.93040738736753 13.4981676655068 4.18638474709607)" fill="#ffffff" fill-rule="evenodd" stroke="#ffffff" stroke-width="0.36" stroke-linecap="square" stroke-linejoin="bevel" width="1.32" height="9.24" rx="0.66" ry="0.731683168316833"/><rect id="shape01" transform="matrix(0.796537864516528 0.604588682572652 -0.576836557021136 0.759974793688713 7.40478282675168 8.52334009919152)" fill="#ffffff" fill-rule="evenodd" stroke="#ffffff" stroke-width="0.36" stroke-linecap="square" stroke-linejoin="bevel" width="1.44" height="4.68" rx="0.72" ry="1.2"/><rect id="shape1" transform="matrix(-0.796537864516528 0.604588682572652 0.576836557021136 0.759974793688713 7.95521751657108 8.52334009919152)" fill="#ffffff" fill-rule="evenodd" stroke="#ffffff" stroke-width="0.36" stroke-linecap="square" stroke-linejoin="bevel" width="1.44" height="4.68" rx="0.72" ry="1.2"/>
+</svg>

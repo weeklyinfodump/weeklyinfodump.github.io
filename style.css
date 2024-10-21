@@ -1,0 +1,12 @@
+body {
+    background-color: #1a1a1c;
+}
+span {
+    color: white;
+}
+.nav-pills {
+    --bs-nav-pills-link-active-bg: #b10dfd;
+}
+.nav {
+    --bs-nav-link-color:var(--bs-nav-pills-link-active-bg)
+}
