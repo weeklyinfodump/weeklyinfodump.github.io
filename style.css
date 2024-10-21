@@ -7,12 +7,16 @@ span {
 .nav-pills {
     --bs-nav-pills-link-active-bg: #b10dfd;
 }
+.active {
+    box-shadow: 0px 0px 5px 2px #b10dfd;
+}
 .nav-link {
-    color: #b10dfd;
+    color: #d885ff;
+    font-weight: 600;
 }
 .nav {
-    --bs-nav-link-color:var(--bs-nav-pills-link-active-bg);
-    --bs-nav-link-hover-color: #900dcd;
+    --bs-nav-link-color: #d885ff;
+    --bs-nav-link-hover-color: #b10dfd;
 }
 .bg-content-box {
     background-color: #2b2b2f;
@@ -26,6 +30,10 @@ span {
 }
 a {
     text-decoration: none;
+    color: #d885ff;
+    transition: 0.2s;
+}
+a:hover {
     color: #b10dfd;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
