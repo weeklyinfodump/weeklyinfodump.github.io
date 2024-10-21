@@ -52,8 +52,8 @@ function loadPosts() {
         if (searchFound1) {
             tally++
             tmp += "<a class='row mb-4' href='"+posts[i].url+"'>"
-            tmp += "<span class='lead col-9'>"+posts[i].title+"</span>"
-            tmp += "<span class='col-3'>"+posts[i].date.toString()+"</span>"
+            tmp += "<span class='lead col-6'>"+posts[i].title+"</span>"
+            tmp += "<span class='col-6 text-end'>"+posts[i].date.toString()+"</span>"
             tmp += "<span>"+posts[i].description+"</span>"
             tmp += "</a>"
         }
@@ -71,7 +71,7 @@ function loadPosts() {
             tally++
             tmp2 += "<a class='row mb-4' href='"+posts[i].url+"'>"
             tmp2 += "<span class='lead col-9'>"+posts[i].title+"</span>"
-            tmp2 += "<span class='col-3'>"+posts[i].date.toString()+"</span>"
+            tmp2 += "<span class='col-3 text-end'>"+posts[i].date.toString()+"</span>"
             tmp2 += "<span>"+posts[i].description+"</span>"
             tmp2 += "</a>"
         }
