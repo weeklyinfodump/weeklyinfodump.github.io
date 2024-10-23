@@ -16,8 +16,9 @@ $(document).ready(function() {
         var r = document.querySelector(':root');
         r.style.setProperty('--colour-primary', '#56c0e3');
         r.style.setProperty('--colour-secondary', '#add8e6');
-        $("#theme").val() = "blue-dark"
+        document.getElementById("theme").value = "blue-dark"
     }
+    
     $("#theme").on("change", function() {
         let currTheme = $("#theme").val()
         let expiry = new Date()
