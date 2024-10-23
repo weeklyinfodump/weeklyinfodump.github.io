@@ -1,40 +1,47 @@
+:root {
+    --colour-primary: #b10dfd;
+    --colour-secondary: #d885ff;
+    --bg-colour-primary: #1a1a1c;
+    --bg-colour-secondary: #2b2b2f;
+    --bg-colour-tertiary: #37373e;
+}
 body {
-    background-color: #1a1a1c;
+    background-color: var(--bg-colour-primary);
 }
 span {
     color: white;
 }
 .nav-pills {
-    --bs-nav-pills-link-active-bg: #b10dfd;
+    --bs-nav-pills-link-active-bg: var(--colour-primary);
 }
-.active {
-    box-shadow: 0px 0px 5px 2px #b10dfd;
+.nav-item .active {
+    box-shadow: 0px 0px 15px 0px var(--colour-primary);
 }
 .nav-link {
-    color: #d885ff;
+    color: var(--colour-secondary);
     font-weight: 600;
 }
 .nav {
-    --bs-nav-link-color: #d885ff;
-    --bs-nav-link-hover-color: #b10dfd;
+    --bs-nav-link-color: var(--colour-secondary);
+    --bs-nav-link-hover-color: var(--colour-primary);
 }
 .bg-content-box {
-    background-color: #2b2b2f;
+    background-color: var(--bg-colour-secondary);
     color: rgb(249, 249, 235);
 }
 .bg-search {
-    background-color: #37373e;
+    background-color: var(--bg-colour-tertiary);
 }
 .row {
     --bs-gutter-x:0;
 }
 a {
     text-decoration: none;
-    color: #d885ff;
+    color: var(--colour-secondary);
     transition: 0.2s;
 }
 a:hover {
-    color: #b10dfd;
+    color: var(--colour-main);
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 html::-webkit-scrollbar {
@@ -45,4 +52,15 @@ html::-webkit-scrollbar {
 html {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+.ar-1-1 {
+    aspect-ratio: 1 / 1;
+}
+.ar-1-2 {
+    aspect-ratio: 1 / 2;
+}
+@media (max-width:62em), print {
+    .mobile-wide {
+        width: 100%;
+    }
 }
