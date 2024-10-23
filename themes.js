@@ -23,7 +23,7 @@ $(document).ready(function() {
         let pair = cookies[i].split('=')
         cookiePairs[pair[0]] = pair[1];
     }
-    let currTheme = cookiePairs[theme]
+    let currTheme = cookiePairs["theme"]
     let expiry = new Date()
     let numberOfMlSeconds = expiry.getTime();
     let addMlSeconds = 30 * 24 * 60 * 60 * 1000;
