@@ -12,7 +12,7 @@ $(document).ready(function() {
     let addMlSeconds = 30 * 24 * 60 * 60 * 1000;
     expiry = new Date(numberOfMlSeconds + addMlSeconds);
     document.cookie = "theme="+currTheme+"; expires="+expiry+"; path=/;";
-
+    console.log(currTheme,cookies,cookiePairs,expiry)
     if (currTheme=="blue-dark") {
         var r = document.querySelector(':root');
         r.style.setProperty('--colour-primary', '#56c0e3');
