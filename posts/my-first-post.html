@@ -19,6 +19,27 @@
         <meta property="og:site_name" content="Weekly Infodump" />
         <link rel='dns-prefetch' href='//translate.google.com' />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script>
+            let cookies = document.cookie;
+            cookies = cookies.split(";")
+            let cookiePairs = {}
+            for (let i in cookies) {
+                let pair = cookies[i].split('=')
+                cookiePairs[pair[0]] = pair[1];
+            }
+            let currTheme = cookiePairs[theme]
+            let expiry = new Date()
+            let numberOfMlSeconds = expiry.getTime();
+            let addMlSeconds = 30 * 24 * 60 * 60 * 1000;
+            expiry = new Date(numberOfMlSeconds + addMlSeconds);
+            document.cookie = "theme="+currTheme+"; expires="+expiry+"; path=/;";
+
+            if (currTheme=="blue-dark") {
+                var r = document.querySelector(':root');
+                r.style.setProperty('--colour-primary', '#56c0e3');
+                r.style.setProperty('--colour-secondary', '#add8e6');
+            }
+        </script>
         <link rel="icon" href="../images/weekly_infodump_icon.svg" sizes="128x128" />
     </head>
     <body>

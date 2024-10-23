@@ -31,7 +31,6 @@ $("#previousWeeks").ready(function() {
         loadPosts()
     })
 })
-
 function loadPosts() {
     let tally = 0;
     search = $("#search").val();

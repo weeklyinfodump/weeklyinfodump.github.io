@@ -27,7 +27,7 @@ span {
 }
 .bg-content-box {
     background-color: var(--bg-colour-secondary);
-    color: rgb(249, 249, 235);
+    color: #f9f9eb;
 }
 .bg-search {
     background-color: var(--bg-colour-tertiary);
